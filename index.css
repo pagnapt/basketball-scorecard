@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+h3 {
+    color: #EEEEEE;
+    margin: 20px auto 0px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-scorecard, .guest-scorecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-scorecard-digit, #guest-scorecard-digit {
+    padding: 0 20px;
+    color: #F94F6D;
+    background: #080001;
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Cursed Timer ULiL', sans-serif;  
+    font-size: 90px;
+    margin: 20px 10px;
+}
+
+.home-scorecard-add, .guest-scorecard-add {
+    display: flex;
+    color: #9AABD8;
+}
+
+.add-1, .add-2, .add-3 {
+    padding: 8px 10px;
+    margin: 0px 5px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Cursed Timer ULiL', sans-serif;        
+}
+
+.reset-btn {
+    margin: 10px auto;
+    background: none;    
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    color: #9AABD8;
+}
